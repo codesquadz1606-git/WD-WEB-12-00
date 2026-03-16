@@ -1,0 +1,32 @@
+How we make html file?
+We use .html extention
+filename.html
+
+What is the structure of HTML?
+meta tags are used for multiple reasons
+1. for encoding
+2. for seo
+3. for responsive design
+
+Heading Tag : Heading tags are of 6 types
+h1 to h6
+Where h1 is greatest & h6 is smallest
+
+Break Tags : br & hr
+br means line Break
+hr means horizontal line
+
+What is Attribute?
+Attribute a property that increase the functionality of a tag.
+<tagname Attribute=value .......>
+
+Media tags are of three types
+:img
+    src : Here we place the source of a image
+    alt : Here we write a alternative text, if their is any error it will display
+:audio
+    src
+    controls this is the main attribute without this audio can;t play.
+:video
+    src
+    controls (most important)

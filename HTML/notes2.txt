@@ -1,0 +1,19 @@
+What is List in HTML?
+List are of two types:
+1. Ordered 
+    Where ordered is denoted by ol 
+    ol tag is a parent tag & child tag is called li(list item) tag
+
+    ol are of 5 types : 1,i,I,A,a 
+
+2. Unordered
+    Where unordered is denoted by ul
+    ul tag is parent tag & child tag is called li
+
+    ul are of three types : square, circle, disc
+
+What is Linking in HTML?
+Linking means linking any url or a internal page .
+
+a tag : anchor tag
+In a tag link opens up at the same tab, if you want to change the tab or open up the link in new tab , then use target:"_blank" attribute

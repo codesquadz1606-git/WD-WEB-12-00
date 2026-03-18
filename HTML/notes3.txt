@@ -1,0 +1,16 @@
+What is Table?
+Table is collection row & column
+
+table tag 
+    tr tag (table row)
+        td/th tag (table data / table head)
+
+td & th both are same, a minut diffrence is that th is in bold and center align whereas td is in normal format.
+
+Table :
+    border : Add up the border of a table
+    cellspacing : space b/w outer cell & inner cell
+    cellpadding : space b/w content & cell
+
+Column Merge : colspan (horizontal merge)
+Row Merge : rowspan (vertical merge)

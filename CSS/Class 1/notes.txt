@@ -1,0 +1,11 @@
+CSS : Cascading StyleSheet
+
+Css are of three types:
+1. Inline : In this We will write CSS in HTML tag itself.
+2. Internal : Here we have to write css in our HTML file itself
+3. External : We have to create a external css file & link that.
+
+../ : it means going back
+
+Priority of each type:
+Inline CSS < Internal CSS < External CSS

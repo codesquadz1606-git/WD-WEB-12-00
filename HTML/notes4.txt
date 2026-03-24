@@ -1,0 +1,11 @@
+What is form tag?
+Basically , any registration or login form 
+
+form 
+    : label , input , select etc....
+
+Their are two type of tags:
+inline tags : It means a tag that contains only content space.
+block tags : It will acquire whole line space content doesn't matter.
+
+Iframe tag

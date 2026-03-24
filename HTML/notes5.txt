@@ -1,0 +1,8 @@
+Semantic Tags 
+b tag
+u tag
+i tag
+strong tag
+pre tag
+sup tag
+sub tag

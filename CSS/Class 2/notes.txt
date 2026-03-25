@@ -1,0 +1,18 @@
+Selectors in CSS :
+id is denoted by # and is a symbol of unique elements
+class is denoted by . and is a symbol of common elements.
+tagname is denoted by tagname , here style is going to apply on all the same tags.
+universal is denoted by * which means applied on whole body
+
+Border in CSS
+
+border-width
+border-style
+border-color
+
+Positions : 5 types
+1. Static (Default) : In this we cannot move any object from its place.
+2. Absolute : In this it will move from its parent space & leaves his space.
+3. Relative : In this it will move from its own space , and do not leave his space..
+4. Fixed : Here the element stick at one place and leave his space.
+5. Sticky : Here Position is stick to one place but do not leaves his space

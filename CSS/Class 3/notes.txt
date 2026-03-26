@@ -1,0 +1,5 @@
+Box Model 
+: Padding : Space b/w content & border
+: Margin : Space outside the border
+
+Display : Inline , Block , Inline-block

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box-1 {
+        background-color: red;
+        padding: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .box-2 {
+        background-color: yellow;
+        padding: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .box-3 {
+        background-color: green;
+        padding: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .box-4 {
+        background-color: blue;
+        padding: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    @media (min-width:1500px) {
+        .box-1 {
+            display: block;
+        }
+    }
+
+    @media (min-width:1260px) and (max-width:1499px) {
+        .box-2 {
+            display: block;
+        }
+    }
+
+    @media (min-width:980px) and (max-width:1259px) {
+        .box-3 {
+            display: block;
+        }
+    }
+
+    @media (min-width:500px) and (max-width:979px) {
+        .box-4 {
+            display: block;
+        }
+    }
+
+    @media (max-width:499px) {
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
+            display: block;
+        }
+    }
+
+    header {
+        padding: 20px 20px;
+    }
+
+    header .screen-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .screen-1 .navigation ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    header .screen-1 .navigation ul li {
+        list-style: none;
+    }
+
+    header .screen-2 {
+        display: none;
+    }
+
+    header .screen-2 .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main {
+        padding: 10px 40px;
+    }
+
+    .slider {
+        width: 90%;
+        height: 500px;
+        border-radius: 50px;
+        border: 2px solid black;
+        margin: auto;
+
+        animation: slider 24s ease-in-out infinite alternate;
+    }
+
+    @keyframes slider {
+        0% {
+            background-image: url(./assets/1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        30% {
+            background-image: url(./assets/2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        60% {
+            background-image: url(./assets/3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        100% {
+            background-image: url(./assets/4.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .box{
+        width: 300px;
+        height: 450px;
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+
+
+
+    @media (max-width:1020px) {
+
+        header .screen-2 {
+            display: block;
+        }
+
+        header .screen-1 {
+            display: none;
+        }
+    }
+
+    @media (max-width:740px) {
+        .box{
+            width: 100%;
+            height: 650px;
+        }
+    }
+
+</style>
+
+<body>
+
+    <!--
+        Breakpoints
+        >1500px : laptop 15.6 inch screen 
+        1260px to 1500px : Laptop 14 inch screen
+        980px to 1260px : tablet
+        500 px to 980px : phones
+    -->
+
+    <!-- <div class="box-1">This is Box - 1</div>
+    <div class="box-2">This is Box - 2</div>
+    <div class="box-3">This is Box - 3</div>
+    <div class="box-4">This is Box - 4</div> -->
+
+    <!-- Always write responsive code at the time of real code. -->
+    <header>
+        <div class="screen-1">
+            <div class="logo">
+                <h1>Loop Earplugs</h1>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li>Shop</li>
+                    <li>Shop</li>
+                    <li>Shop</li>
+                    <li>Shop</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button>Country</button>
+                <button>Account</button>
+                <button>Cart</button>
+            </div>
+        </div>
+        <div class="screen-2">
+            <div class="content">
+                <div class="ham">
+                    <h1>Ham</h1>
+                </div>
+                <div class="logo">
+                    <h1>Loop Earplugs</h1>
+                </div>
+                <div class="btns">
+                    <button>Country</button>
+                    <button>Account</button>
+                    <button>Cart</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slider"></div>
+
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </main>
+</body>
+
+</html>

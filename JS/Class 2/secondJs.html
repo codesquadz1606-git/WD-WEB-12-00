@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // Chapter 2 : Template Literal , Operators & Conditional Statement.
+
+        // What is Template Literal?
+        // Here we can write statement & operation together
+
+        // console.log("Hello My name is Shubham. I scored",45+45,"marks in exam")
+
+        // Template Literal : opertion -> ${} and statement : ``.
+        // console.log(`My name is Shubham. I scored ${45+45} marks in exam`)
+
+        // Operators : Operation b/w two or more operands.
+
+        // Type of Operators:
+        // 1. Arthmetic : +,-,*,/,%,**
+        // console.log(10+3)
+        // console.log(10-3)
+        // console.log(10*3)
+        // console.log(10/3) // Quotient
+        // console.log(10%3) // Remainder
+        // console.log(10**3)
+
+        // 2. Relational : Finds out the relation b/w two or more operands. It also return in true & false.
+        // <,>,<=,>=,==,!=,===
+        // console.log(10<3)
+        // console.log(10>3)
+        // console.log(10>=3)
+        // console.log(10<=3)
+        // console.log(10==3)
+        // console.log(10!=3)
+
+        // Diffrence b/w == & ===
+        // console.log(10=="10") // in == it do not check the data-type
+        // console.log(10==="10") // in === it check data-type as well as value.
+
+        // 3. Logical : It is basically applicable on two or more condition.
+        // && , || , !
+
+        // && operator
+        // I    II      R
+        // T    T       T
+        // T    F       F
+        // F    T       F
+        // F    F       F
+        // Conclusion : if single condition is false , entire operation is false.
+
+        // console.log(10>5 && 40<10)
+        
+        // || operator
+        // I    II      R
+        // T    T       T
+        // T    F       T
+        // F    T       T
+        // F    F       F
+        // Conclusion : if single condition is true , entire operation is true.
+        // console.log(10>5 || 40<10)
+        
+        // ! operator : it is just a switch
+        // true -> false
+        // false -> true
+        // console.log(!(10>5 || 40<10))
+
+        // 4. Unary : ++ , --
+        // post & pre
+        // post
+        // let a=10
+        // let b=a++; // first assigned 10 to b , then increased a by 1
+        // let b=a--;
+
+        // pre
+        // let b=++a; // first increased a by 1 , then assigned to b
+        // let b=--a;
+        
+        // console.log(b)
+        // console.log(a)
+
+        // 5. Assignment : =,+=,-=,*=,/=,%=,**=
+        // Assigning value to any variable form right to left.
+        // let a=10;
+        // a+=10; // a=a+10
+        // a*=3
+        // a/=3
+        // a%=7
+        // a-=12
+        // a**=3
+
+        // 6. Ternary : Used for a small conditional rendering
+        // (Condition)?Statement1 (if true):statement2 (if false);
+
+        // let age=18;
+        // (age>=19)?console.log("Eligible"):console.log("Not Eligible");
+
+        // What is Conditional Statement?
+        // 2 types:
+        // 1. if else
+        // if is the starting statement & else is the ending statement.
+        let age=21;
+        if(age>=19){ // it used multiple times.
+            console.log("Eligible")
+        }
+        else if(age>=13 && age<=18){ // it used only for secondary conditions
+            console.log(`Eligible in ${19-age} years`)
+        }
+        else{ // it is only used once
+            console.log("Not Eligible")
+        }
+
+        // 2. Switch Case
+    </script>
+</body>
+</html>
